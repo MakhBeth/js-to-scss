@@ -1,5 +1,5 @@
 {
-  "name": "js-to-scss",
+  "name": "@makhbeth/js-to-scss",
   "version": "1.0.0",
   "description":
     "Converts js objects, like configuration ones, in scss variables, ready to be injected inside your Sass engine via the data option",
@@ -7,10 +7,17 @@
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakhBeth/js-to-scss.git"
+  },
   "keywords": ["sass", "javascript", "scss", "convert"],
   "author": "Davide Di Pumpo (makhbeth)",
   "license": "ISC",
   "dependencies": {
     "@riim/object-entries-polyfill": "github:riim/object-entries-polyfill"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
   }
 }
