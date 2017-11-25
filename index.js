@@ -7,9 +7,12 @@ function flattenObjSass(obj, prefix = "$", transform = (key, val) => val) {
     if (typeof val === "object" && !Array.isArray(val) && val) {
       return go + `${flattenObjSass(val, `${key}-`, transform)}`;
     } else {
-      return Array.isArray(val)
-        ? `${key}: (${transform(key, val)}); `
-        : go + `${key}: ${transform(key, val)}; `;
+      return (
+        go +
+        `${key}: ${
+          Array.isArray(val) ? `(${transform(key, val)})` : transform(key, val)
+        }; `
+      );
     }
   }, "");
 }
