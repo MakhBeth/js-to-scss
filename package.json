@@ -1,5 +1,5 @@
 {
-  "name": "@makhbeth/js-to-scss",
+  "name": "js-to-scss",
   "version": "1.0.0",
   "description":
     "Converts js objects, like configuration ones, in scss variables, ready to be injected inside your Sass engine via the data option",
