@@ -27,7 +27,7 @@ $white: #ffffff;
 
 ## Extras
 
-This module will convert arrays in Sass list like string and will go recursively
+This module will convert arrays in Sass-list-like string and will go recursively
 down to your object. Example:
 
 ```js
@@ -111,7 +111,7 @@ flattenObjSass(
 ### Why that?
 
 I like to have a config file with all tha design option configuration: color,
-breakpoints, typography etc... So I can use that across al the application
+breakpoints, typography etc... So I can use that across all the application
 (breakpoint are really useful in your template engine if you use Elements
 Queries)
 
