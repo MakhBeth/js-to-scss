@@ -67,8 +67,7 @@ flattenObjSass(
 * `obj`: The object that will be transformed
 * `prefix` = String prepended to every "property", default is `$` to mimic Sass
   variables
-* `transform`: you can manipulate the `prop` (everything before the `:`) and the
-  value. example
+* `transform`: you can manipulate the value, the key is passed to check purposes. example
 
 ```js
 flattenObjSass(
