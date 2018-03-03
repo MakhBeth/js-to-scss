@@ -9,7 +9,7 @@ string. You can inject that string inside your Sass engine, via the
 ## Example:
 
 ```js
-const const flattenObjSass = require("js-to-scss");
+import flattenObjSass from "js-to-scss";
 
 const color= {
     black: '#000000',
